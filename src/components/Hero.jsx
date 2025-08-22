@@ -29,10 +29,18 @@ const Hero = () => {
               ✅ This ensures accurate AQI monitoring on the go, removing biases of fixed-location stations.
           </p>
           <div className='flex gap-4 mt-12'>
-            <a className='border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]' href="#">
-              Documentation <i class='bx bx-link-external' ></i>
-            </a>
-             <a className='border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white' href="#">
+   <a
+  href="/Homepage-ui/AQI%20ppt.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]"
+>
+  Documentation <i className="bx bx-link-external"></i>
+</a>
+
+
+
+             <a className='border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white' href="https://relaxgamein-movingaqi-58.deno.dev/">
               GetStarted <i class='bx bx-link-external' ></i>
             </a>
           </div>
